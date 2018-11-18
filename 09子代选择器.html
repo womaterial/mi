@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        /*1. 需求  要一级菜单改为蓝色*/
+    ul li  a{ /*后代选择器 所以的后代的意思*/
+        color:red
+    }
+    ul li > a{  /*子代选择器 子指的是亲儿子 大于号分割 此时的a一定是li的亲儿子*/
+        color:red
+    }
+    </style>
+</head>
+<body>
+    <ul>
+        <LI> <a href="#">一级菜单</a>
+            <div>
+            <a href="#">二级菜单</a>                
+            <a href="#">三级菜单</a>
+            <a href="#">四级菜单</a>
+          
+            </div>
+        </LI>
+    </ul>
+</body>
+</html>
