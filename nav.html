@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width= , initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+     <style>
+         .nav{
+            text-align: center;
+         }
+     .nav a {
+         width: 120px;
+         height: 50px;
+         /* background-color:pink; */
+         /* 因为a是行内元素，没有大小0，我们需要转换 inline-block  */
+         display: inline-block;
+         background-image: url(image/bg.png);
+         text-align: center;  /* 让盒子内文字居中对齐 */
+         /* 行内元素 行内块元素 我们可以看做文本 */
+         text-decoration: none;  /* 取消下划线*/
+         line-height: 50px;
+     }
+     .nav a:hover { /* 但我们鼠标经过nav里面连接的时候*/
+          background-image: url(image/bgc.png);
+     }
+
+     </style>
+</head>
+<body>
+    <div class="nav"> <!-- 导航栏开始了 -->
+         <a href="">导航网站</a>
+         <a href="">导航网站</a>
+         <a href="">导航网站</a>
+         <a href="">导航网站</a>
+         <a href="">导航网站</a>
+         <a href="">导航网站</a>
+    </div> 
+</html>
