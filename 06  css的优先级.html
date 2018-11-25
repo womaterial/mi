@@ -6,15 +6,31 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <style>
-    div {
+        #id {
+            color: blue;
+        }
+   
+    .yase {  /* 类选择器 权重高于标签选择器 0， 0， 1， 0*/
+        color: green;
+    }
+    div {  /*权重 0， 0， 1， 0*/
         color: red;
     }
-    .yase {
-        color: green;
+    div {  /*权重 0， 0， 0， 1 */
+        color: hotpink!important;
+    } 
+    * {  /* 0, 0, 0, 0 */
+
     }
     </style>
 </head>
 <body>
-    <div class="yase">亚瑟</div>
+    <div class="yase" id="ya" style="orange">亚瑟
+    <!-- * 0000
+    div 0001
+    #id 0100
+    行内 1000
+    important 无穷大 -->
+    </div>
 </body>
 </html>
