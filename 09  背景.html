@@ -6,26 +6,30 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <style>
-    body {
-        /* background-color: pink; */
-    background-image: url(image/bg.png );
-    background-repeat: no-repeat;
-    }
+    
     div {
-        width: 400px;
-        height: 400px;
+        width: 500px;
+        height: 500px;
         background-color: purple;
-        background-image: url(image/bg.png);
+        background-image: url(images/l.jpg);
         background-repeat: no-repeat;
-        background-position: center top;
-    }
+        /* background-position: x y;
+        background-repeat: no-repeat; 不平铺
+        background-position: center top;   top 上 bottom 下 left 左 right 右 */
+        /* background-position: bottom right ;  */
+        /* 1.positon 后面可以根方位名词 他们之间可以没有上下顺序 */
+        /*  2.position 如果只写一个方位名词，另外一个默认是居中的 */
+        /*  2.position 后面也可以跟px值  必须有顺序 x 在前面 y在后面 不能颠倒*/
+        /* background-position: 50px 12px ; */
+        background-position: 10px center;
+    }   
     </style>
 </head>
 <body>
-    我是上面的文字
+  
 
     <div>
-        <img src="image/bg.png" >
+        
     </div>
 </body>
 </html>
