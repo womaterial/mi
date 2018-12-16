@@ -9,6 +9,8 @@
         .father {
             border: 1px solid red;
             width: 300px;
+            overflow: hidden;  /*别加错位置了 给父亲加 */
+            /* 不是所有的浮动我们都需要清除 谁影响布局 我们清除谁 */
 
         }
         .big {
@@ -32,12 +34,8 @@
 </head>
 <body>
     <div class="father">
-
-        <div class="big">
-            <div class="small">
-
-            </div>
-        </div>
+        <div class="big"></div>
+        <div class="small"></div>
     </div>
     <div class="footer"></div>
 </body>

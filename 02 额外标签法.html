@@ -28,16 +28,17 @@
         height: 100px;
         background-color: pink;
     }
+    .clear {
+        clear: both;
+        /* 如果清除了浮动 父亲去自动检测孩子高度  以最高的为准 */
+    }
     </style>
 </head>
 <body>
     <div class="father">
-
-        <div class="big">
-            <div class="small">
-
-            </div>
-        </div>
+    <div class="big"></div>
+    <div class="small"></div>
+     <div class="clear"></div> <!-- 最后一个浮动标签后 新添加一个标签 清除浮动 -->
     </div>
     <div class="footer"></div>
 </body>
