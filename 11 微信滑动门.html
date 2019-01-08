@@ -7,11 +7,56 @@
     <title>Document</title>
     <style>
     body {
-        background: url(images/wx.jpg);
+        background: url(images/wx.jpg) repeat-x;
+    }
+    .nav a {
+        height: 33px;
+        line-height: 33px;
+        color: #fff;
+        text-decoration: none;
+        background: url(images/to.png) no-repeat;
+        display: inline-block;
+        padding-left: 15px;
+    }
+    .nav a span {
+        background: url(images/to.png) no-repeat right;
+        display: inline-block;
+        height: 33px;
+        padding-right: 15px;
+    }
+    /* .nav a:hover {
+        background-image: url(images/ao.png);
+    }
+    .nav a:hover span {
+        background-image: url(images/ao.png);
+    } */
+    .nav a:hover, .nav a:hover span {
+        background-image: url(images/ao.png);
+    }
+    .nav li {
+        float: left;
+        padding-left: 50px;
+        list-style: none;
     }
     </style>
 </head>
 <body>
-    
+    <ul class="nav">
+        <li>
+            <a href="#">
+                <span>首页</span>
+            </a>
+        </li> 
+        <li>
+            <a href="#">
+                <span>三个字</span>
+            </a>
+        </li>
+        <li>
+            <a href="#">
+                <span>四个字的</span>
+            </a>
+        </li>
+    </ul>
 </body>
 </html>
