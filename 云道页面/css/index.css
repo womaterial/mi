@@ -50,10 +50,10 @@ li {
 }
 /* banner end */
 
-.service {
+.service{
     /* margin-top: 75px; */
     width: 1055px;
-    height: 660px;
+    /* height: 660px; */
     /* background-color: pink; */
     margin: 75px auto 0;
 }
@@ -77,6 +77,7 @@ li {
 }
 .service-bd {
     margin-top: 40px;
+    overflow: hidden;
 }
 .service-bd li {
     width: 314px;
@@ -120,4 +121,8 @@ li {
 }
 .yingxiao {
     margin: 0 45px;
+}
+.case {
+    width: 1055px;
+    margin: 75px auto 0;
 }
