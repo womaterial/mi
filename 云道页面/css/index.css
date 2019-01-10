@@ -9,8 +9,10 @@ body {
 }
 li {
     list-style: none; /* 取消li的小点 */
-
 }
+.clearfix:after {  content: ""; display: block; height: 0; clear: both; visibility: hidden;  }   
+
+ .clearfix {*zoom: 1;}   /* IE6、7 专有 */
 /* 顶部导航栏开始啦  */
 .header {
     height: 100px;
@@ -125,4 +127,66 @@ li {
 .case {
     width: 1055px;
     margin: 75px auto 0;
+}
+.case-bd {
+    margin-top:80px;
+    position: relative;
+}
+.case-bd li {
+    width: 325px;
+    height: 210px;
+    /* background-color: pink ; */
+    float: left;
+    position: relative;
+}
+.case-bd-m {
+    margin: 0 40px;
+}
+.text {
+    height: 45px;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background: rgba(0,0,0,.3);
+    text-align: center;
+    line-height: 45px;
+    color: #fff;
+    font-style: 12px;
+}
+.mask {
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,.5) url(../images/fdj.png) center no-repeat;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
+.case-bd li:hover .mask {
+    display: block;
+}
+.left, .right {
+    width: 60px;
+    height: 60px;
+    background: rgba(0,0,0,.2);
+    position: absolute;
+    top: 50%;
+    margin-top: -30px; 
+    text-align: center;
+    line-height: 60px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 25px;
+    border-radius: 50%;
+
+}
+.left {
+    left: -90px;
+}
+.right {
+    right: -90px;
+}
+.case-bd a:hover {
+    background: rgba(0,0,0,.4);
 }
