@@ -190,3 +190,22 @@ li {
 .case-bd a:hover {
     background: rgba(0,0,0,.4);
 }
+.media-bd {
+    width: 1050px;
+    height: 240px;
+    overflow: hidden;
+    margin-top: 40px;
+}
+.media-bd ul {
+    width: 1060px;
+}
+.media-bd li {
+    width: 210px;
+    height: 60px;
+    /* background-color: pink; */
+    float: left;
+    border-right:1px dashed #ccc;
+    border-bottom: 1px dashed #ccc;
+    text-align: center;
+    padding-top: 20px;
+}
