@@ -5,7 +5,7 @@
 }
 body {
     background-color: #fafafa;
-    height: 3000px;
+    /* height: 3000px; */
 }
 li {
     list-style: none; /* 取消li的小点 */
@@ -208,4 +208,28 @@ li {
     border-bottom: 1px dashed #ccc;
     text-align: center;
     padding-top: 20px;
+}
+.footer {
+    height: 165px;
+    background-color: #212425 ;
+    margin-top: 100px;
+    overflow: hidden;
+
+}
+.subnav {
+    text-align: center;
+    margin-top: 50px;
+    color: #f0f1f1;
+    font-size: 14px;
+
+}
+.subnav a {
+    color: #f0f1f1;
+    text-decoration: none;
+     padding: 0 5px;
+     font-size: 14px;
+}
+.subnav a:hover {
+    color: #2288f6;
+    text-decoration: underline;
 }
