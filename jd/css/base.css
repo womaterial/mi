@@ -53,6 +53,29 @@ ul {
 /* 京东顶部end */
 .shortcut {
     height: 30px;
+    line-height: 30px;
     background-color: #e3e4e5;
     border-bottom: 1px solid #dddddd;
+    color: #9d9d9d;
+    font-size: 12px;
+}
+.shortcut a {
+    color: #9d9d9d;
+    font-size: 12px;
+    text-decoration: none;
+}
+.shortcut a:hover {
+    color: #c81623;
+}
+.pos {
+    font-family: "icomoon";
+    font-style: normal;
+    font-size: 14px;
+    color: #f10215; 
+}
+.shortcut .fl li {
+    margin-left: 200px;
+}
+.shortcut .fr li {
+    float: left;
 }
