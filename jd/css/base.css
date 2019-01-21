@@ -79,3 +79,12 @@ ul {
 .shortcut .fr li {
     float: left;
 }
+.spacer {
+    width: 1px;
+    height: 10px;
+    background-color: #ccc;
+    margin: 10px 10px 0;
+}
+.dropdown {
+    padding-right: 15px;
+}
