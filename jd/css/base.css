@@ -121,7 +121,7 @@ ul {
 }
 .inner {
     height: 140px;
-    /* background-color: pink; */
+    background-color: pink;
     position: relative;
 }
 .logo {
@@ -130,7 +130,8 @@ ul {
     position: absolute;
     top: -31px;
     left: 0;
-    /* background-color: purple; */
+    background-color: purple;
+    box-shadow: 0 -12px 10px rgba(0,0,0,.2)
 }
 .logo h1 {
     margin: 0;
