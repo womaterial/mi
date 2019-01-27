@@ -36,6 +36,11 @@
 		'icon-plus': '&#xea0a;',
 		'icon-minus': '&#xea0b;',
 		'icon-cross': '&#xea0f;',
+		'icon-camera': '&#xe90f;',
+		'icon-connection': '&#xe91b;',
+		'icon-phone': '&#xe942;',
+		'icon-phone-hang-up': '&#xe943;',
+		'icon-tongue': '&#xe9e3;',
 		'0': 0
 		},
 		els = document.getElementsByTagName('*'),

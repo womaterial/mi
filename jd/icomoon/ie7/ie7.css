@@ -67,4 +67,19 @@
 .icon-cross {
   *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xea0f;');
 }
+.icon-camera {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe90f;');
+}
+.icon-connection {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe91b;');
+}
+.icon-phone {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe942;');
+}
+.icon-phone-hang-up {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe943;');
+}
+.icon-tongue {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe9e3;');
+}
 
