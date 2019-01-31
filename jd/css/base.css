@@ -222,11 +222,12 @@ a {
     top: 25px;
     right: 100px;
     line-height: 33px;
+    text-align: center;
 }
 .myCar a {
-    font-size: 14px;
+    font-size: 12px;
     color: #f10215;
-    /* text-align: center; */
+    
 }
 .myCar i {
     font-family: "icomoon";
@@ -252,4 +253,24 @@ a {
     right: 0;
     bottom: 10px;
     
+}
+.navitems {
+    position: absolute;
+    left: 200px;
+    bottom: 0;
+}
+.navitems ul {
+    float: left;
+    margin-left: 30px;
+}
+.navitems ul li {
+    float: left;
+}
+.navitems li a {
+    font-size: 16px;
+    color: #555a5f;
+    font-weight: 700;
+    height: 40px;
+    line-height: 40px;
+
 }
