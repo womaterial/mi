@@ -132,7 +132,7 @@ a {
 }
 .inner {
     height: 140px;
-    background-color: pink;
+    /* background-color: pink; */
     position: relative;
 }
 .logo {
@@ -226,9 +226,30 @@ a {
 .myCar a {
     font-size: 14px;
     color: #f10215;
-    text-align: center;
+    /* text-align: center; */
 }
 .myCar i {
     font-family: "icomoon";
+    font-style: normal;
+    color: #f10215;
+    margin-right: 3px;
+}
+.myCar s {
+    position: absolute;
+    top: 5px;
+    left: 140px;
+    text-decoration: none;
+    background-color: #f10215;
+    height: 16px;
+    line-height: 16px;
+    font-size: 12px;
+    padding: 0 3px;
+    border-radius: 7px;
+    color: #fff;
+}
+.cumputer {
+    position: absolute;
+    right: 0;
+    bottom: 10px;
     
 }
