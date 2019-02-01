@@ -261,10 +261,11 @@ a {
 }
 .navitems ul {
     float: left;
-    margin-left: 30px;
 }
 .navitems ul li {
     float: left;
+    margin-left: 30px;
+
 }
 .navitems li a {
     font-size: 16px;
@@ -272,5 +273,14 @@ a {
     font-weight: 700;
     height: 40px;
     line-height: 40px;
-
+    display: block;
+}
+.navitems li a:hover {
+    color: #f10215;
+}
+.navitems .spacer {
+    float: left;
+    margin-top:15px;
+    margin-left: 20px;
+    margin-right: -10px;
 }
