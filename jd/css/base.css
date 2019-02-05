@@ -26,6 +26,16 @@ input,button {
 a {
     text-decoration: none;
 }
+.clearfix:before .clearfix:after, {
+    content: "";
+    display: table;
+
+    }
+    .clearfix:after {
+        clear: both;
+    }
+    .clearfix {
+        *zoom: 1;
 @font-face {
     font-family: 'icomoon';
     src:  url('../fonts/icomoon.eot?c7h32a');
@@ -284,3 +294,24 @@ a {
     margin-left: 20px;
     margin-right: -10px;
 }
+/* footer 开始啦 */
+.footer {
+    height: 560px;
+    background-color: #eaeaea;
+}
+.footer-service {
+    /* height: 100px; */
+    border-bottom: 1px solid #dedede;
+}
+.footer-service-inner {
+ /* height: 100px; */
+ background-color: #pink;
+ padding: 30px 0;
+}
+.footer-service-inner li {
+    float: left;
+    width: 297px;
+    height: 42px;
+    background-color: purple;
+}
+/* footer 结束 */
